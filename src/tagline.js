@@ -50,16 +50,6 @@ var Tagline = React.createClass({
         this.forceUpdate();
     },
     
-    // populate id field if not present
-    normalizeItems: function(items) {
-        for (var i = 0; i < items.length; i++) {
-            var item = items[i];
-            if (!item.id) {
-                item.id = this.generateUid();
-            }
-        }
-    },
-    
     render: function() {
         // set content display
         var tagElements = [];
