@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 // Tagline component
 var Tagline = React.createClass({
     name: 'tagline',
